@@ -7,4 +7,5 @@ systemctl enable mongod
 systemctl start mongod
 
 #/etc/yum.repos.d/mongo.repo
+#
 
