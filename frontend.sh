@@ -8,3 +8,6 @@ cd /usr/share/nginx/html
 unzip /tmp/frontend.zip
 cp ${script_location}/Files/nginx-roboshop.conf /etc/nginx/default.d/roboshop.conf
 systemctl restart nginx
+
+#Trouble shooting commnds
+#sudo netstat -lntp
