@@ -14,5 +14,7 @@ npm install
 cp ${script_location}/Files/catalogue.service /etc/systemd/system/catalogue.service
 systemctl daemon-reload
 systemctl enable catalogue
-systemctl start catalogue
 systemctl status catalogue
+systemctl start catalogue
+
+mongo --host localhost </app/schema/catalogue.js
