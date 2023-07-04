@@ -3,7 +3,7 @@
 ##### Change these values ###
 ZONE_ID="Z0817521EHTT54Q935H7"
 DOMAIN="gorungo.online"
-SG_NAME="allow-all"
+SG_NAME="Allow-all"
 env=dev
 #############################
 
