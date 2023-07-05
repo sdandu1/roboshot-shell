@@ -17,4 +17,4 @@ systemctl enable catalogue
 systemctl status catalogue
 systemctl start catalogue
 
-mongo --host localhost </app/schema/catalogue.js
+mongo --host mongodb-dev.gorungo.online </app/schema/catalogue.js
