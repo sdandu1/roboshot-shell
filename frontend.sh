@@ -3,9 +3,9 @@ LOG=/tmp/roboshop
 status_check()
 {
    if [ $? -eq 0 ]; then
-     echo success
+     echo -e '\e[32m SUCCESS\e[0m'
    else
-     echo -e '\e[31mFAILURE\e[0m'
+     echo -e '\e[31m FAILURE\e[0m'
          echo "Refer log file for mode details", LOG = ${LOG}
      exit
    fi
