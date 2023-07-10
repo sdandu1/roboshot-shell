@@ -1,5 +1,5 @@
 script_location=$(pwd)
-LOG=/tmp/roboshop.log
+LOG= /tmp/roboshop
 
 echo -e '\e[35m Install Nginx\e[0m'
 yum install nginx -y &>>${LOG}
