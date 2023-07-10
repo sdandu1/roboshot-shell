@@ -1,12 +1,12 @@
 script_location=$(pwd)
-LOG= /tmp/roboshop
+LOG=/tmp/roboshop
 status_check()
 {
    if [ $? -eq 0 ]; then
      echo success
    else
-     echo -e "\e[31mFailure\e[0m"
-     echo "Refer log file for mode details", LOG = ${LOG}
+     echo -e '\e[31mFAILURE\e[0m'
+         echo "Refer log file for mode details", LOG = ${LOG}
      exit
    fi
  }
